@@ -12,27 +12,28 @@
   <body>
     <!--верхня лінія-->
     <header class="page-header">
-     <div class="container">
-       <a class="logo" href="#">
+     <div class="container nav-contact">
+       <a class="logo" href="./index.html">
       <span class="first-part-logo">Web</span> Studio
-    </a>
+       </a>
     <nav>
       <ul class="site-nav list">
-        <li><a href="./index.html">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li class="iten"><a class="site-current" href="./index.html">Студия</a></li>
+        <li class="iten"><a href="./portfolio.html">Портфолио</a></li>
+        <li class="iten"><a href="#">Контакты</a></li>
       </ul>
     </nav>
     <ul class="contact-us list">
-      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul></div>
+      <li class="iten"><a href="mailto:info@devstudio.com"><img src="./images/contacts/envelope.svg" alt="конверт">info@devstudio.com</a></li>
+      <li class="iten"><a href="tel:+380961111111"><img src="./images/contacts/smartphone.svg" alt="телефон">+38 096 111 11 11</a></li>
+    </ul>
+  </div>
     </header>
     <!--особливий контент сторінки-->
     <main>
       <!--шапка-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
         <button class="button">Заказать услугу</button>
       </section>
       <!--особливості компанії, чим вони виділяються-->
@@ -40,7 +41,7 @@
        <div class="container">
           <h2 hidden class="section-title">Особенности</h2>
           <ul class="features list">
-            <li>
+            <li class="iten">
               <img class="logo-features" src="./images/osobennosti/antenna.svg" alt="антена" width="70" />
               <h3 class="section-subtitle">Внимание к деталям</h3>
               <p class="text">
@@ -48,7 +49,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="iten">
               <img class="logo-features" src="./images/osobennosti/clock.svg" alt="часы" width="70" />
               <h3 class="section-subtitle">Пунктуальность</h3>
               <p class="text">
@@ -56,15 +57,15 @@
                 влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="iten">
               <img class="logo-features" src="./images/osobennosti/diagram.svg" alt="диаграма" width="70" />
               <h3 class="section-subtitle">Планирование</h3>
-              <pclass="text">
+              <p class="text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
                 </pclass=>
             </li>
-            <li>
+            <li class="iten">
               <img class="logo-features" src="./images/osobennosti/astronaut.svg" alt="астронавт" width="70" />
               <h3 class="section-subtitle">Современные технологии</h3>
               <p class="text">
@@ -80,15 +81,15 @@
            <div class="container">
               <h2 class="section-title">Чем мы занимаемся</h2>
               <ul class="section-service-item list">
-                <li>
+                <li class="iten">
                   <img class="pic-service" src="./images/what-they-do/img.png" alt="ноутбук на рабочем столе" width="370" />
                   <h3 class="section-service-subtitle">Десктопные приложения</h3>
                 </li>
-                <li>
+                <li class="iten">
                   <img class="pic-service" src="./images/what-they-do/cellphone.png" alt="мобильный телефон" width="370" />
                   <h3 class="section-service-subtitle">Мобильные приложения</h3>
                 </li>
-                <li>
+                <li class="iten">
                   <img class="pic-service" src="./images/what-they-do/screen.png" alt="экран компьютера" width="370" />
                   <h3 class="section-service-subtitle">Дизайнерские решения</h3>
                 </li>
@@ -100,7 +101,7 @@
        <div class="container">
           <h2 class="section-title ">Наша команда</h2>
           <ul class="team list">
-            <li>
+            <li class="iten">
               <img class="img-team" src="./images/team/nikolo.png" alt="Николай Кучеренко" width="270" />
               
               <h3 class="section-subtitle team-size">Николай Кучеренко</h3>
@@ -124,7 +125,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="iten">
               <img class="img-team" src="./images/team/ola.png" alt="Ольга Иванова" width="270" />
               <h3 class="section-subtitle team-size">Ольга Иванова</h3>
               <p class="text size" lang="en">Frontend Developer</p>
@@ -146,7 +147,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="iten">
               <img class="img-team" src="./images/team/andru.png" alt="Андрей Шевченко" width="270" />
               <h3 class="section-subtitle team-size">Андрей Шевченко</h3>
               <p class="text size" lang="en">Marketing</p>
@@ -168,7 +169,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="iten">
               <img class="img-team" src="./images/team/jovani.png" alt="Иван Николаев" width="270" />
               <h3 class="section-subtitle team-size">Иван Николаев</h3>
               <p class="text size" lang="en">UI Designer</p>
